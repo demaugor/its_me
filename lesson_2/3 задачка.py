@@ -6,7 +6,8 @@ elif price > 100:
     discount = 15
 elif price > 80:
     discount = 10
-else: discount = 5
+else:
+    discount = 5
 
 discount_amount = price * discount / 100
 price_with_discount = price - discount_amount
