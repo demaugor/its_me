@@ -1,13 +1,15 @@
 day = "28"
-month = "05"
+month = "5"
 year = "2023"
-day = int(input("Введите день своего рождения: "))
-month = int(input("Введите месяц своего рождения: "))
-year = int(input("Введите год своего рождения: "))
-if day < 1 or day > 31: print("Ошибка: неверный день рождения")
-elif month < 1 or month > 12: print("Ошибка: неверный месяц рождения")
-elif year > 2022: print("Ошибка: неверный год рождения")
-if 2022 - year > 18: print("путь открыт")
-elif 2022 - year == 18 and month < 12: print("путь открыт")
-elif 2022 - year == 18 and month == 12 and day <= 31: print("путь открыт")
+day_of_birth = int(input("Введите день своего рождения: "))
+month_of_birth = int(input("Введите месяц своего рождения: "))
+year_of_birth = int(input("Введите год своего рождения: "))
+if day_of_birth < 1 or day_of_birth > 31:
+    print("Ошибка: неверный день рождения")
+elif month_of_birth < 1 or month_of_birth > 12:
+    print("Ошибка: неверный месяц рождения")
+elif year_of_birth > 2023: print("Ошибка: неверный год рождения")
+if 2023 - year_of_birth > 18: print("путь открыт")
+elif 2023 - year_of_birth == 18 and month_of_birth < 12: print("путь открыт")
+elif 2023 - year_of_birth == 18 and month_of_birth == 12 and day_of_birth <= 31: print("путь открыт")
 else: print("куда лезешь малой")
