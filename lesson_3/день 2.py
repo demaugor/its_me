@@ -26,7 +26,9 @@ try:
         print("Ноябрь")
     elif month == 12:
         print("Декабрь")
+        
     else:
         print("Неверный номер месяца")
+        
 except ValueError:
     print("Ошибка: введено некорректное значение")
