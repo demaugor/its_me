@@ -25,4 +25,4 @@ elif year - year_of_birth == 18 and month_of_birth < 12:
 elif year - year_of_birth == 18 and month_of_birth == 12 and day_of_birth <= 31:
     print("путь открыт")
 else:
-    print("куда лезешь малой")
+    print("куда лезешь малой") 
