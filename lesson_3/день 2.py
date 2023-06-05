@@ -1,34 +1,30 @@
 num_month = input("Введите номер месяца (1-12): ")
-
-try:
-    month = int(num_month)
-    if month == 1:
+month = int(num_month)
+match month:
+    
+    case  1:
         print("Январь")
-    elif month == 2:
+    case  2:
         print("Февраль")
-    elif month == 3:
+    case 3:
         print("Март")
-    elif month == 4:
+    case 4:
         print("Апрель")
-    elif month == 5:
+    case 5:
         print("Май")
-    elif month == 6:
+    case 6:
         print("Июнь")
-    elif month == 7:
+    case 7:
         print("Июль")
-    elif month == 8:
+    case 8:
         print("Август")
-    elif month == 9:
+    case 9:
         print("Сентябрь")
-    elif month == 10:
+    case 10:
         print("Октябрь")
-    elif month == 11:
+    case 11:
         print("Ноябрь")
-    elif month == 12:
+    case 12:
         print("Декабрь")
-        
-    else:
+    case _:
         print("Неверный номер месяца")
-        
-except ValueError:
-    print("Ошибка: введено некорректное значение")
