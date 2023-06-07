@@ -1,4 +1,4 @@
-Http_Code = int(input("Введите http-код: "))
+Http_Code = int(input("Введите http_код: "))
 
 match Http_Code:
     
