@@ -1,13 +1,13 @@
 import random
 
-N = random.randint(1, 100)
+i = random.randint(1, 100)
 user = 15
 
-while user != N:
+while user != i:
     user = int(input("Угадай число от 1 до 100: "))
-    if user > N:
+    if user > i:
         print("Число должно быть меньше")
-    elif user < N:
+    elif user < i:
         print("Число должно быть больше")
     else:
         print("Вы угадали число!")
