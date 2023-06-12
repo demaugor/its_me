@@ -1,7 +1,7 @@
 import random
 
 i = random.randint(1, 100)
-user = 15
+user = 0
 
 while user != i:
     user = int(input("Угадай число от 1 до 100: "))
