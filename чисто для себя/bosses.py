@@ -36,14 +36,14 @@ while True:
             map(
                 int,
                 input(
-                    f"Введите время когда умер босс '{selected_boss}' (h:m:[s]): "
+                    f"Введите время когда умер босс '{selected_boss}' (h:m:s): "
                 ).split(":"),
             )
         )
         if len(boss_died_at) == 2:
             boss_died_at.append(0)
 
-        if not (0 < len(boss_died_at) < 3):
+        if not (0 < len(boss_died_at) <= 3):
             print("Неправильный шаблон времени! (слишком много или мало элементов)")
             continue
         break
