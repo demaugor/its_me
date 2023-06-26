@@ -13,11 +13,11 @@ bosses = {
     "yp_v": {"hours": 1, "minutes": 10},
     "yp_les": {"hours": 2, "seconds": 5},
     "ost": {"hours": 2, "seconds": 5},
-    "Alfa": {"hours": 2,}
-    "Samka": {"hours": 2,}
-    "Termit" {"hours": 2,}
-    "Zt": {"hours": 2,}
-    "Fara": {"hours": 2,}
+    "Alfa": {"hours": 2},
+    "Samka": {"hours": 2},
+    "Termit": {"hours": 2},
+    "Zt": {"hours": 2},
+    "Fara": {"hours": 2},
 }
 
 while True:
