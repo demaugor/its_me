@@ -9,7 +9,7 @@ bosses = {
     "бакс": {"hours": 5, "minutes": 5},
     "энт": {"hours": 1, "minutes": 28},
     "кк": {"hours": 2, "minutes": 5},
-    "хозяин": {"hours": 5, "seconds": 5},
+    "хозяин": {"hours": 2},
     "бу_ворлакс": {"hours": 1, "minutes": 10},
     "бу_лес_каталания": {"hours": 2, "seconds": 5},
     "остин": {"hours": 2, "seconds": 5},
