@@ -1,8 +1,24 @@
 import math
 
-choice = input("Введите 'радиус' или 'диаметр': ")
 
-if choice == 'радиус':
+choice = input("Введите 'радиус' или 'диаметр': ")
+try:
+    length = float(input('введите значение'))
+except:
+    print('всё пиздец ты клоун')
+    
+match choice:
+    case v if v in ['радиус', 'r']:
+        print(f'''Длина окружности: {2*length*math.pi}
+Площадь: {math.pi*(length**2)}''')
+    case v if v in ['диаметр', 'd']:
+        print(f'''Длина окружности: {length*math.pi}
+Площадь: {math.pi*((length/2)**2)}''')
+        print(f'''Длина окружности: {length*math.pi}''')
+        
+    case _: print('чёт говной попахивает')
+
+"""if choice == 'радиус':
     radius = float(input("Введите радиус круга: "))
     circumference = 2 * math.pi * radius
     area = math.pi * radius**2
@@ -16,4 +32,5 @@ elif choice == 'диаметр':
     print("Длина окружности:", circumference)
     print("Площадь круга:", area)
 else:
-    print("Некорректный выбор") 
+    print("Некорректный выбор")
+"""
