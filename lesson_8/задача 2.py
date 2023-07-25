@@ -22,6 +22,7 @@ def authenticate_user(username, password):
     return users.get(username) == password
 
 
+@authenticate
 def sensitive_operation():
     print("Выполняю чувствительную операцию.")
 
