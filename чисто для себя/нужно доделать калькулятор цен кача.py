@@ -1,4 +1,4 @@
-a = int(100)
+"""a = int(100)
 print("цена 1-20")
 b = int(200)
 print ("цена 20-25")
@@ -32,3 +32,31 @@ lastsumm = int(summ + summ1 + summ2 + summ3 + summ4 + summ5 + summ6 + summ7 + su
 
 
 print (lastsumm)
+"""
+prise= {"1-20":{int:(10000)},
+        "20-25":{int:(20000)},
+        "25-30":{int:(25000)},
+        "30-35":{int:(40000)},
+        "35-40":{int:(50000)},
+        "40-50":{int:(80000)},
+        "50-55":{int:(120000)},
+        "55-60":{int:(180000)},
+        "60-65":{int:(350000)}, 
+    }
+while True:
+    while True:
+        selected_prise = input("Введите уровень (оставьте пустым для вывода списка): ")
+        if not selected_prise:
+            print("Список доступных уровней: ", *prise.keys(), sep="\n - ")
+            continue
+        if selected_prise not in prise:
+            print("Такого уровня нет(ещё)!")
+            continue
+        break
+    
+    множетель = int(input("множетель"))
+    print(
+    f"\tобщая цена{selected_prise * множетель} ")
+    
+            
+    
