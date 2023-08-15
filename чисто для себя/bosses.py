@@ -17,7 +17,7 @@ bosses = {
     "самка": {"hours": 2},
     "кт": {"hours": 2},
     "зт": {"hours": 2},
-    "фарая": {"hours": 2},
+    "фара": {"hours": 2},
 }
 
 while True:
