@@ -16,7 +16,7 @@ def show_score():
 def start_game():
     attempts = 0
     rand_num = random.randint(1, 10)
-    print('Привет! Добропожаловать в игру!')
+    print('Привет! Добро_пожаловать в игру!')
     player_name = input('Как твоё имя? ')
     wanna_play = input(
         f'Ку, {player_name}, хочешь сыграть '

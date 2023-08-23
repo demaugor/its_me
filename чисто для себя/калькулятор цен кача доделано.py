@@ -13,6 +13,6 @@ while True:
             continue
         break
 
-    monj = int(input("множетель"))
-    total_price = prise[selected_prise] * monj
+    multiplier = int(input("множитель"))
+    total_price = prise[selected_prise] * multiplier
     print(f"\tобщая_цена {total_price}")
