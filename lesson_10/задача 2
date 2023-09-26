@@ -1,0 +1,19 @@
+number_list = []
+max_numbers = 5  
+
+try:
+    while True:
+        try:
+            if len(number_list) >= max_numbers:
+                raise KeyboardInterrupt
+
+            number = input("Введите число (или 'q' для выхода): ")
+            if number.lower() == 'q':
+                raise KeyboardInterrupt
+
+            num = int(number)
+            number_list.append(num)
+        except ValueError:
+            print("Ошибка! Ввод должен быть числом. Попробуйте еще раз.")
+except KeyboardInterrupt:
+    print("\nСписок чисел:", number_list)

@@ -1,0 +1,20 @@
+def divide_numbers():
+    try:
+        num1 = int(input("Введите первое число: "))
+        num2 = int(input("Введите второе число: "))
+        result = num1 / num2
+        print(f"Результат деления: {result}")
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")
+        divide_numbers()
+
+    divide_numbers()
+while True:
+    try:
+        num1 = int(input("Введите первое число: "))
+        num2 = int(input("Введите второе число: "))
+        result = num1 / num2
+        print(f"Результат деления: {result}")
+        break
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")

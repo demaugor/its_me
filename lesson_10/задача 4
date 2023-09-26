@@ -1,0 +1,45 @@
+def power(base, exponent):
+    if exponent > 10:
+        raise ValueError('Показатель слишком велик. Максимальный показатель равен 10.')
+    elif exponent == 0:
+        return 1
+    else:
+        result = base
+        for i in range(1, exponent):
+            result = result * base
+        return result
+
+
+def subtract(number1, number2):
+    result = number1 - number2
+    if result < 0:
+        raise ValueError('Результат отрицателен. Вычитание невозможно.')
+    else:
+        return result
+
+
+def calculator():
+    try:
+        base = int(input("Введите основание числа (0-555): "))
+        if base < 0 or base > 555:
+            raise ValueError('Число вне диапазона.')
+
+        exponent = int(
+            input("Введите показатель (0-10) для операции возведения в степень: "))
+        power_result = power(base, exponent)
+        print(f"{base}^{exponent}={power_result}")
+
+        number1 = int(input("Введите первое число для вычитания (0-555): "))
+        if number1 < 0 or number1 > 555:
+            raise ValueError('Число вне диапазона.')
+
+        number2 = int(input("Введите второе число для вычитания (0-555): "))
+        if number2 < 0 or number2 > 555:
+            raise ValueError('Число вне диапазона.')
+
+        subtraction_result = subtract(number1, number2)
+        print(f"{number1}-{number2}={subtraction_result}")
+    except ValueError as e:
+        print(str(e))
+
+calculator()
