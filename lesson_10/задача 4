@@ -27,7 +27,7 @@ def calculator():
         exponent = int(
             input("Введите показатель (0-10) для операции возведения в степень: "))
         power_result = power(base, exponent)
-        print(f"{base}^{exponent}={power_result}")
+        print(f"{base} ^ {exponent} = {power_result}")
 
         number1 = int(input("Введите первое число для вычитания (0-555): "))
         if number1 < 0 or number1 > 555:
@@ -38,7 +38,7 @@ def calculator():
             raise ValueError('Число вне диапазона.')
 
         subtraction_result = subtract(number1, number2)
-        print(f"{number1}-{number2}={subtraction_result}")
+        print(f"{number1} - {number2} = {subtraction_result}")
     except ValueError as e:
         print(str(e))
 
