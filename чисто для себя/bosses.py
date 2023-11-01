@@ -19,6 +19,7 @@ bosses = {
     "зт": {"hours": 2},
     "фара": {"hours": 2},
 }
+## Список боссов доступных в игре на данный момент
 
 while True:
     while True:
@@ -37,7 +38,7 @@ while True:
                 int,
                 input(
                     f"Введите время когда умер босс '{selected_boss}' (h:m:s): "
-                ).split(":"),
+                ).split(":"), ##разбитие введённых данных на 3 части
             )
         )
         if len(boss_died_at) == 2:
@@ -56,6 +57,7 @@ while True:
         minute=boss_died_at[1],
         second=boss_died_at[2],
     )
+    ## формирование формата времени час минута секунда
 
     boss_respawn_after = timedelta(**bosses[selected_boss])
     print(
