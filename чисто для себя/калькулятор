@@ -1,0 +1,15 @@
+def calculate_cost(first_level_cost, second_level_cost, third_level_cost, first_mult, second_mult):
+    total_cost = first_level_cost * first_mult + second_level_cost * second_mult + third_level_cost * second_mult
+    return total_cost
+
+try:
+    first_level_cost = float(input("Введите стоимость предмета первого уровня: "))
+    second_level_cost = float(input("Введите стоимость предмета второго уровня: "))
+    third_level_cost = float(input("Введите стоимость предмета третьего уровня: "))
+    first_mult = float(input("Введите 1 множитель: "))
+    second_mult = float(input("Введите 2 множитель: "))
+
+    total_cost = calculate_cost(first_level_cost, second_level_cost, third_level_cost, first_mult, second_mult)
+    print(f"Общая стоимость предмета: {total_cost}")
+except ValueError:
+    print("Ошибка: Введите числовое значение для стоимости.")
