@@ -1,0 +1,16 @@
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form4.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form5.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form6.resources
+C:\Users\demau\source\repos\DIPLOM\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form7.resources
