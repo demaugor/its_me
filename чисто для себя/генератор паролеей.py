@@ -1,7 +1,7 @@
 import secrets
 import string
 
-
+# Функция
 def create_pw(pw_length=12):
     letters = string.ascii_letters
     digits = string.digits
