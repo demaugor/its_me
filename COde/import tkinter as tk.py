@@ -42,8 +42,8 @@ buttons = []
 label = tk.Label(root, text="", font=("Arial", 16))
 label.pack(pady=10)
 
-frame = tk.Frame(root)
-frame.pack()
+#frame = tk.Frame(root)
+#frame.pack()
 
 # Инициализация игры
 setup_game()
